@@ -1,0 +1,14 @@
+p{
+    font-weight: bold;
+}
+
+
+.underlined{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#titel{
+    color:#FC0056;
+    background: yellow
+}

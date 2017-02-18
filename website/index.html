@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gils site</title>
+  <link rel="stylesheet" href="style/main.css"/>
+</head>
+<body ng-app="testApp">
+    <div ng-controller="paginaController">
+      <h1 id="titel">Mijn site</h1>
+
+      <p>dit is een <strong>tekst</strong></p>
+
+      <p class="underlined">dit wordt onderlijnd</p>
+
+      <a href="http://www.google.be">linkje</a>
+
+      <img src="images/clubFotoCutDownSized.jpg"/>
+
+
+        {{naam}}
+      <form>
+        <label for="naam">Naam</label>
+        <input id="naam"  type="text" ng-model="naam"/>
+
+      </form>
+
+    </div>
+  <script src="scripts/angular.js" type="text/javascript"></script>
+  <script src="scripts/hello.js" type="text/javascript"></script>
+</body>
+</html>
