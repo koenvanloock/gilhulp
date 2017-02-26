@@ -16,3 +16,9 @@ p{
 .goeiedagKnop{
     background: gray;
 }
+
+h1, h2, h3{
+    background: green;
+    color: white;
+    padding:5px;
+}

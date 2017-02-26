@@ -1,0 +1,62 @@
+<head>
+  <link rel="stylesheet" href="../style/main.css">
+</head>
+<div>
+
+  <p>
+    Tot nu toe heb je met elementen gewerkt die de hele breedte van een scherm innemen (div's, p's, h?'s) en elementen
+    die precies hun nodige ruimte innemen (span, strong, a).
+    Het is ook mogelijk om elementen boven je pagina te laten 'zweven'
+
+  </p>
+
+  <h3>Speel eens met float:</h3>
+
+
+  <section id="float-zonder-clear">
+    <div style="float: left">
+      Ik zweef links
+    </div>
+    <p style="background: yellow;">Hier staat vanalles, maar de float zweeft boven de p. De tekst houdt wel rekening met de float. Je kunt hier wel rekening mee houden door margins in te
+      voeren, of met "clear"</p>
+
+  </section>
+
+  <section id="float-met-clear">
+    <div style="float: left">
+      Ik zweef links
+    </div>
+
+    <p style="background: yellow; clear:left">Hier staat vanalles, maar de float zweeft erboven. De clear:left betekent: ik tollereer geen floats links, het kan ook right of both zijn...</p>
+
+    <p>Tot html 5 was dit de enige manier om menukes links te maken of een header menu bovenaan. Nu kan je ook met flex werken...</p>
+    <p>Het is erg aangeraden om eens over alles te hoveren in je chrome inspector!</p>
+
+  </section>
+
+  <h3>Gebruik onderstaande structuur om een menu aan de linkerkant te maken. Het menu moet altijd 20% van de schermbreedte innemen en mag nooit met de tekst overlappen. De tekst moet bovenaan starten. (naast het menu ipv erboven)</h3>
+  <p>Maak ook kennis met een lijstje: een ul (unordered list) kan li's bevatten (list index geloof ik). Ze krijgen automatisch een opsommingsteken. weghalen doe je met text-decoration: none</p>
+
+
+  <div id="side-menu">
+    <h1>Opdrachten</h1>
+    <ul style="text-decoration: none">
+      <li><a href="opdracht_1_marginaal.html">Opdracht 1</a></li>
+      <li><a href="opdracht_2_whateverFloatsYourBoat.html">Opdracht 2</a></li>
+    </ul>
+  </div>
+
+
+  <div id="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec feugiat tempor viverra. Vestibulum vel turpis non felis dapibus condimentum. Morbi nec elementum est. Duis posuere mi id metus tempus porta. Vestibulum vel sollicitudin leo. In auctor ornare sem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam quis eleifend ex. Maecenas nec arcu fermentum, mattis magna in, molestie leo.
+
+      Fusce sed tortor vel turpis gravida volutpat eu posuere quam. Curabitur dignissim laoreet mauris ac accumsan. Nam pulvinar erat a elit iaculis rhoncus. Aenean venenatis ante eget euismod cursus. Ut dapibus gravida ante eget scelerisque. Praesent eu lacinia sapien, vel tincidunt odio. Suspendisse pulvinar sodales molestie. In risus ligula, condimentum a aliquet at, sodales eget risus.
+
+      Pellentesque at tortor efficitur, iaculis ante nec, scelerisque nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et cursus diam. Curabitur cursus vel enim id convallis. Aliquam eu aliquet risus. Aliquam mauris tellus, euismod eu porttitor quis, aliquam ut mi. Praesent vel ex turpis. Nulla sem quam, egestas nec blandit at, pulvinar non justo. Sed tincidunt dolor in dictum accumsan. Nam accumsan sagittis nunc at ornare. Aenean lacinia sollicitudin dapibus. Praesent tristique congue neque, vel lacinia ligula semper non.
+
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit cursus faucibus. Ut eu rutrum diam. Suspendisse vel sapien sit amet eros scelerisque ultrices. Vivamus maximus rutrum orci, nec malesuada elit bibendum ut. Etiam tempor tempor tellus, in accumsan leo interdum ac. Fusce luctus rhoncus eros quis tristique. Vivamus ut viverra nunc. Vestibulum ac metus consequat, vehicula dui quis, facilisis est. Fusce vel condimentum lorem. Integer ullamcorper massa arcu. Nunc nec risus ac nibh gravida vulputate et ut metus. Phasellus nunc sem, sagittis quis velit quis, porta convallis sapien. Phasellus facilisis at sapien at vestibulum.
+
+      Nulla lacinia tellus ut posuere consequat. Morbi convallis, nisl ut accumsan pharetra, nibh nisi consectetur est, ut fermentum erat velit vitae enim. Mauris ex sem, laoreet sed sapien vitae, feugiat auctor nisl. Nullam ullamcorper nisi risus, vitae suscipit mauris laoreet at. Aenean id enim at nisi porttitor interdum. Vestibulum ut neque ullamcorper, eleifend ex sed, cursus velit. Curabitur id viverra erat. Donec ultricies eleifend dui quis efficitur. Maecenas nec justo et nisi efficitur suscipit. Ut ullamcorper, nisl maximus tristique gravida, risus odio tempor tellus, quis sodales ipsum elit ac est. Etiam pellentesque erat erat, in ornare neque pharetra in. Praesent eu dolor nisl. Ut at nunc gravida, pretium augue id, bibendum lectus.</p>
+  </div>
+
+</div>
